@@ -1,0 +1,157 @@
+2021-08-13 14:37:30,396 ERROR 66080 [-/127.0.0.1/-/35ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\bigFrontEnd\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\bigFrontEnd\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 66080
+hostname: LAPTOP-JHJ1T253
+
+2021-08-13 14:39:25,118 ERROR 66360 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\bigFrontEnd\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\bigFrontEnd\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 66360
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 16:50:18,801 ERROR 64080 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 64080
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 16:52:16,944 ERROR 64080 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:178:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\bigFrontEnd\\myEgg\\app\\public\\css\\img"
+name: "EPERMError"
+pid: 64080
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 16:56:38,142 ERROR 64268 [-/127.0.0.1/-/2ms GET /admin/login] nodejs.AssertionError: Can't find login.html from D:\bigFrontEnd\myEgg\app\view
+    at Map.resolve (D:\bigFrontEnd\myEgg\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\bigFrontEnd\myEgg\node_modules\egg-view\lib\context_view.js:50:22)
+    at async StaffController.login (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:11:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 18:28:24,431 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3318455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 18:43:19,422 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 274726ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 18:58:58,332 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 158587ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 19:27:53,951 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 1735613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 20:27:53,947 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3599848ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 21:27:54,219 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3600225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 22:27:54,312 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3600070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 23:27:54,174 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3599786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 23:35:23,764 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 449474ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 23:50:53,730 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 149637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 00:27:54,456 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 2220694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+

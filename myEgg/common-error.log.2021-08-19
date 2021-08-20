@@ -1,0 +1,202 @@
+2021-08-18 07:54:16,957 ERROR 9740 nodejs.ClusterClientNoResponseError: client no response in 27956470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 9740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 08:00:08,843 ERROR 9740 nodejs.ClusterClientNoResponseError: client no response in 351805ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 9740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 09:26:12,676 ERROR 9740 nodejs.ClusterClientNoResponseError: client no response in 5163820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 9740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 09:38:37,717 ERROR 9740 nodejs.ClusterClientNoResponseError: client no response in 123212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 9740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 10:46:58,035 ERROR 9740 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 11:30:21,950 ERROR 91884 [egg-mongoose] mongodb://127.0.0.1:27017/itElite disconnected
+2021-08-18 13:00:59,899 ERROR 89624 nodejs.ClusterClientNoResponseError: client no response in 2580457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 89624
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 13:36:59,415 ERROR 89624 nodejs.ClusterClientNoResponseError: client no response in 878915ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 89624
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 13:42:35,702 ERROR 89624 nodejs.ClusterClientNoResponseError: client no response in 336232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 89624
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 14:00:20,439 ERROR 89624 nodejs.ClusterClientNoResponseError: client no response in 1064731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 89624
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 17:46:49,835 ERROR 10944 [-/127.0.0.1/-/19ms POST /admin/dologin?_csrf=iNGr2RXq-vRdNBUdfOh1WpHK3JlEgD_gwQtE] nodejs.RangeError: Maximum call stack size exceeded
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+
+pid: 10944
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 17:47:16,717 ERROR 46660 [-/127.0.0.1/-/19ms POST /admin/dologin?_csrf=laQOJTJI-kWJ7bqCD4N1j_vqOSjM_7obIwzE] nodejs.RangeError: Maximum call stack size exceeded
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+    at ToolService.md5 (D:\bigFrontEnd\myEgg\app\service\tool.js:19:17)
+
+pid: 46660
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 17:47:59,294 ERROR 86552 [-/127.0.0.1/-/2ms POST /admin/register?_csrf=1139Xcpe--RXXRaKEmWdowY6TmVUdEnZ7Ais] nodejs.ReferenceError: md5 is not defined
+    at StaffController.register (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:40:5)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\app\middleware\adminAuth.js:11:15
+    at fn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\middleware.js:112:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 86552
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 23:08:01,166 ERROR 86688 nodejs.ClusterClientNoResponseError: client no response in 18366745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 86688
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 23:32:52,552 ERROR 86688 nodejs.ClusterClientNoResponseError: client no response in 350879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 86688
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 23:51:20,938 ERROR 86688 nodejs.ClusterClientNoResponseError: client no response in 508149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 86688
+hostname: LAPTOP-JHJ1T253
+
+2021-08-18 23:52:39,548 ERROR 86688 nodejs.ClusterClientNoResponseError: client no response in 78594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 86688
+hostname: LAPTOP-JHJ1T253
+
+2021-08-19 13:28:58,225 ERROR 6428 nodejs.ClusterClientNoResponseError: client no response in 1790754ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6428
+hostname: LAPTOP-JHJ1T253
+
+2021-08-19 13:57:18,573 ERROR 6428 nodejs.ClusterClientNoResponseError: client no response in 1320219ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6428
+hostname: LAPTOP-JHJ1T253
+
+2021-08-19 14:15:26,461 ERROR 6428 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6428
+hostname: LAPTOP-JHJ1T253
+
+2021-08-20 09:25:19,462 ERROR 6428 nodejs.ClusterClientNoResponseError: client no response in 55639351ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 6428
+hostname: LAPTOP-JHJ1T253
+

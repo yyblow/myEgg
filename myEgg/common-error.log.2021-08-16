@@ -1,0 +1,206 @@
+2021-08-16 09:41:03,776 ERROR 70620 nodejs.ClusterClientNoResponseError: client no response in 4604438ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 70620
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 09:41:03,778 ERROR 75436 nodejs.ClusterClientNoResponseError: client no response in 4605354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 75436
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 11:56:47,385 ERROR 80612 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 13:04:57,378 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 3189447ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 13:27:19,168 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 1159191ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 14:00:12,396 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 1973211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 14:09:30,119 ERROR 80612 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 17:05:42,417 ERROR 80612 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 17:59:07,048 ERROR 81300 [-/127.0.0.1/-/15ms POST /admin/dologin?_csrf=1j0pjw1e-MzumfUlAj4cc8YPucOp5SvMe9_U] nodejs.ReferenceError: ctx is not defined
+    at StaffService.find (D:\bigFrontEnd\myEgg\app\service\staff.js:6:18)
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:22:42)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 81300
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:01:43,404 ERROR 82912 [-/127.0.0.1/-/5ms POST /admin/dologin?_csrf=w3ukePpD-OxNodKMLfpFuPXYhkR5AdAjCP24] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 82912
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:02,224 ERROR 82912 [-/127.0.0.1/-/3ms POST /admin/dologin?_csrf=xXYDBWSR-BXUGIm5g2C6gd_NDmMneFlVE1nM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 82912
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:26,896 ERROR 13176 [-/127.0.0.1/-/27ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:28,480 ERROR 13176 [-/127.0.0.1/-/3ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:29,486 ERROR 13176 [-/127.0.0.1/-/2ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:33,098 ERROR 13176 [-/127.0.0.1/-/4ms POST /admin/dologin?_csrf=Ou4Okk4z-aCBq1drfdTf8Qvyg3AT79iPu5Ww] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 23:05:17,770 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 18090171ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 09:35:39,565 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 34699921ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+

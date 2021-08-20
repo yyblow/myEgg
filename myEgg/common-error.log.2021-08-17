@@ -1,0 +1,183 @@
+2021-08-17 09:52:18,026 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 378198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 13:04:58,727 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 964472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 13:42:13,808 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 2094934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 13:43:35,678 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 81840ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 13:59:57,584 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 981893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:02:54,391 ERROR 80612 nodejs.ClusterClientNoResponseError: client no response in 18182509ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:06:15,128 ERROR 80612 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 80612
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:14,623 ERROR 52892 [-/127.0.0.1/-/1ms GET /admin/verify] nodejs.TypeError: Cannot read property 'getCaptcha' of undefined
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:54)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 52892
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:16,259 ERROR 52892 [-/127.0.0.1/-/1ms GET /admin/verify] nodejs.TypeError: Cannot read property 'getCaptcha' of undefined
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:54)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 52892
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:16,458 ERROR 52892 [-/127.0.0.1/-/1ms GET /admin/verify] nodejs.TypeError: Cannot read property 'getCaptcha' of undefined
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:54)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 52892
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:16,970 ERROR 52892 [-/127.0.0.1/-/0ms GET /admin/verify] nodejs.TypeError: Cannot read property 'getCaptcha' of undefined
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:54)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 52892
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:24,705 ERROR 16740 [-/127.0.0.1/-/2ms GET /admin/verify] nodejs.ReferenceError: svgCaptcha is not defined
+    at ToolService.getCaptcha (D:\bigFrontEnd\myEgg\app\service\tool.js:6:19)
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:47)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 16740
+hostname: LAPTOP-JHJ1T253
+
+2021-08-17 23:32:26,240 ERROR 16740 [-/127.0.0.1/-/1ms GET /admin/verify] nodejs.ReferenceError: svgCaptcha is not defined
+    at ToolService.getCaptcha (D:\bigFrontEnd\myEgg\app\service\tool.js:6:19)
+    at StaffController.verify (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:51:47)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 16740
+hostname: LAPTOP-JHJ1T253
+

@@ -1,0 +1,145 @@
+2021-08-15 00:29:29,889 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 95428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 00:44:36,547 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 126305ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 01:05:25,684 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 1249131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 02:02:50,252 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 3204457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 15:54:38,788 ERROR 58268 nodejs.ClusterClientNoResponseError: client no response in 49908482ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 58268
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 18:40:22,879 ERROR 53732 [-/127.0.0.1/-/22ms POST /admin/dologin?_csrf=RXPYbQxC-TA1KGvde4whawOvrTtepJsOREGA] nodejs.ReferenceError: alert is not defined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:23:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 53732
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 18:56:28,575 ERROR 68184 [-/127.0.0.1/-/2ms POST /admin/register?_csrf=vfvcFMYD-T_tqmtnCUOXT7rNErOvO0QlB8vA] nodejs.TypeError: this.ctx.model.Staff.insert is not a function
+    at StaffController.register (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:32:45)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 68184
+hostname: LAPTOP-JHJ1T253
+
+2021-08-15 19:07:22,807 ERROR 64932 [-/127.0.0.1/-/17ms POST /admin/register?_csrf=xcY1MBJR-kHhgcBek1Gh3eJ4rwFDZW80MCmQ] nodejs.TypeError: (intermediate value).insert is not a function
+    at StaffController.register (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:32:119)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 64932
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 08:24:18,210 ERROR 75436 nodejs.ClusterClientNoResponseError: client no response in 47126363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 75436
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 08:24:18,067 ERROR 70620 nodejs.ClusterClientNoResponseError: client no response in 47126364ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\bigFrontEnd\myEgg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 70620
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 08:24:19,320 ERROR 79256 nodejs.ENOENTError: [egg-logrotator] rename D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log, found exception: ENOENT: no such file or directory, rename 'D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log' -> 'D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log.2021-08-15'
+ENOENTError: [egg-logrotator] rename D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log, found exception: ENOENT: no such file or directory, rename 'D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log' -> 'D:\bigFrontEnd\myEgg\logs\myEgg\common-error.log.2021-08-15'
+errno: -4058
+code: "ENOENT"
+syscall: "rename"
+path: "D:\\bigFrontEnd\\myEgg\\logs\\myEgg\\common-error.log"
+dest: "D:\\bigFrontEnd\\myEgg\\logs\\myEgg\\common-error.log.2021-08-15"
+name: "ENOENTError"
+pid: 79256
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 08:24:19,393 ERROR 79256 nodejs.ENOENTError: [egg-logrotator] rename D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log, found exception: ENOENT: no such file or directory, rename 'D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log' -> 'D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log.2021-08-15'
+ENOENTError: [egg-logrotator] rename D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log, found exception: ENOENT: no such file or directory, rename 'D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log' -> 'D:\bigFrontEnd\myEgg\logs\myEgg\egg-web.log.2021-08-15'
+errno: -4058
+code: "ENOENT"
+syscall: "rename"
+path: "D:\\bigFrontEnd\\myEgg\\logs\\myEgg\\egg-web.log"
+dest: "D:\\bigFrontEnd\\myEgg\\logs\\myEgg\\egg-web.log.2021-08-15"
+name: "ENOENTError"
+pid: 79256
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 08:24:19,444 ERROR 79256 nodejs.Error: [egg-logrotator] rename D:\bigFrontEnd\myEgg\logs\myEgg\egg-schedule.log, found exception: targetFile D:\bigFrontEnd\myEgg\logs\myEgg\egg-schedule.log.2021-08-15 exists!!!
+    at renameOrDelete (D:\bigFrontEnd\myEgg\node_modules\egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (D:\bigFrontEnd\myEgg\node_modules\egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (D:\bigFrontEnd\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 79256
+hostname: LAPTOP-JHJ1T253
+

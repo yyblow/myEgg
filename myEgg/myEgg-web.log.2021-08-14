@@ -1,0 +1,49 @@
+2021-08-13 14:37:30,401 ERROR 66080 [-/127.0.0.1/-/35ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\bigFrontEnd\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\bigFrontEnd\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 66080
+hostname: LAPTOP-JHJ1T253
+
+2021-08-13 14:39:25,145 ERROR 66360 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\bigFrontEnd\myEgg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\bigFrontEnd\myEgg\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 66360
+hostname: LAPTOP-JHJ1T253
+
+2021-08-14 16:56:38,151 ERROR 64268 [-/127.0.0.1/-/2ms GET /admin/login] nodejs.AssertionError: Can't find login.html from D:\bigFrontEnd\myEgg\app\view
+    at Map.resolve (D:\bigFrontEnd\myEgg\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\bigFrontEnd\myEgg\node_modules\egg-view\lib\context_view.js:50:22)
+    at async StaffController.login (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:11:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 64268
+hostname: LAPTOP-JHJ1T253
+

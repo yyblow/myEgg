@@ -1,0 +1,144 @@
+2021-08-16 17:11:14,561 WARN 82936 [-/127.0.0.1/-/2ms POST /admin/dologin?_csrf=mdRl5sr4-FEcMv9JSBaMSVO44KTwI5CxAInY] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-08-16 17:11:14,564 WARN 82936 [-/127.0.0.1/-/4ms POST /admin/dologin?_csrf=mdRl5sr4-FEcMv9JSBaMSVO44KTwI5CxAInY] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\bigFrontEnd\myEgg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\bigFrontEnd\myEgg\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "missing csrf token"
+pid: 82936
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 17:59:07,051 ERROR 81300 [-/127.0.0.1/-/15ms POST /admin/dologin?_csrf=1j0pjw1e-MzumfUlAj4cc8YPucOp5SvMe9_U] nodejs.ReferenceError: ctx is not defined
+    at StaffService.find (D:\bigFrontEnd\myEgg\app\service\staff.js:6:18)
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:22:42)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\bigFrontEnd\myEgg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:45:18)
+    at D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:44:32)
+    at D:\bigFrontEnd\myEgg\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\bigFrontEnd\myEgg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\bigFrontEnd\myEgg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 81300
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:01:43,419 ERROR 82912 [-/127.0.0.1/-/5ms POST /admin/dologin?_csrf=w3ukePpD-OxNodKMLfpFuPXYhkR5AdAjCP24] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 82912
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:02,233 ERROR 82912 [-/127.0.0.1/-/3ms POST /admin/dologin?_csrf=xXYDBWSR-BXUGIm5g2C6gd_NDmMneFlVE1nM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 82912
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:26,905 ERROR 13176 [-/127.0.0.1/-/27ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:28,488 ERROR 13176 [-/127.0.0.1/-/3ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:29,494 ERROR 13176 [-/127.0.0.1/-/2ms POST /admin/dologin?_csrf=xph1bC4P-ZEU9KH0bRnHxLwYZjUQHz-733AM] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
+2021-08-16 18:02:33,106 ERROR 13176 [-/127.0.0.1/-/4ms POST /admin/dologin?_csrf=Ou4Okk4z-aCBq1drfdTf8Qvyg3AT79iPu5Ww] nodejs.TypeError: Cannot read property 'login_name' of undefined
+    at StaffController.dologin (D:\bigFrontEnd\myEgg\app\controller\admin\staff.js:25:42)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\bigFrontEnd\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\bigFrontEnd\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\bigFrontEnd\myEgg\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\bigFrontEnd\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\bigFrontEnd\myEgg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 13176
+hostname: LAPTOP-JHJ1T253
+
