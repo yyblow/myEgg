@@ -1,2 +1,2 @@
 # myEgg
-myEgg是一款基于egg.js框架，开发的应用
+myEgg是基于egg.js框架开发的一款高颜值应用。
