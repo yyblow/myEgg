@@ -1,5 +1,6 @@
 var router = (app) => {
   const {router,controller} = app
+  router.get('/', controller.admin.base.index)
   router.get('/admin', controller.admin.staff.index)
   router.get('/admin/login', controller.admin.staff.login)
   router.get('/admin/logout', controller.admin.staff.logout)

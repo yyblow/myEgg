@@ -90,28 +90,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\github\\myEgg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-session\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-security\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-development\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-static\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-view\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-mongoose\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-cors\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\locales",
-        "D:\\bigFrontEnd\\myEgg\\config\\locales"
+        "D:\\github\\myEgg\\node_modules\\egg-session\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-security\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-development\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-static\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-view\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-mongoose\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg-cors\\config\\locales",
+        "D:\\github\\myEgg\\node_modules\\egg\\config\\locales",
+        "D:\\github\\myEgg\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -122,8 +122,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\github\\myEgg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\github\\myEgg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -147,7 +147,7 @@
       "fileExtensions": [],
       "whitelist": null,
       "allowArrayField": false,
-      "tmpdir": "C:\\Users\\86132\\AppData\\Local\\Temp\\egg-multipart-tmp\\myEgg",
+      "tmpdir": "C:\\Users\\CUIJIN\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\myEgg",
       "cleanSchedule": {
         "cron": "0 30 4 * * *",
         "disable": false
@@ -172,7 +172,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\bigFrontEnd\\myEgg\\app\\public",
+      "dir": "D:\\github\\myEgg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -180,7 +180,7 @@
     },
     "view": {
       "root": [
-        "D:\\bigFrontEnd\\myEgg\\app\\view"
+        "D:\\github\\myEgg\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -233,6 +233,7 @@
         "egg": "^2.30.0",
         "egg-cors": "^2.2.3",
         "egg-mongoose": "^3.3.1",
+        "egg-scripts": "^2.14.0",
         "egg-view-nunjucks": "^2.3.0",
         "md5": "^2.3.0",
         "svg-captcha": "^1.4.0"
@@ -242,15 +243,17 @@
         "less": "^4.1.1"
       },
       "scripts": {
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop"
       },
       "keywords": [],
       "author": "",
       "license": "ISC"
     },
-    "baseDir": "D:\\bigFrontEnd\\myEgg",
-    "HOME": "C:\\Users\\86132",
-    "rundir": "D:\\bigFrontEnd\\myEgg\\run",
+    "baseDir": "D:\\github\\myEgg",
+    "HOME": "C:\\Users\\cuijintian",
+    "rundir": "D:\\github\\myEgg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -282,7 +285,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\bigFrontEnd\\myEgg\\logs\\myEgg",
+      "dir": "D:\\github\\myEgg\\logs\\myEgg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -384,8 +387,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-onerror",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -395,8 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-session",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -406,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-i18n",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -417,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-watcher",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -430,8 +433,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-multipart",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -443,8 +446,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-security",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -458,8 +461,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-development",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -471,8 +474,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-logrotator",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -482,8 +485,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-schedule",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -493,8 +496,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-static",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -506,8 +509,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-jsonp",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -517,8 +520,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-view",
+      "from": "D:\\github\\myEgg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "nunjucks": {
@@ -531,8 +534,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-view-nunjucks",
+      "from": "D:\\github\\myEgg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-view-nunjucks",
       "version": "2.3.0"
     },
     "mongoose": {
@@ -542,8 +545,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-mongoose",
+      "from": "D:\\github\\myEgg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-mongoose",
       "version": "3.3.1"
     },
     "cors": {
@@ -553,8 +556,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\bigFrontEnd\\myEgg\\config\\plugin.js",
-      "path": "D:\\bigFrontEnd\\myEgg\\node_modules\\egg-cors",
+      "from": "D:\\github\\myEgg\\config\\plugin.js",
+      "path": "D:\\github\\myEgg\\node_modules\\egg-cors",
       "version": "2.2.3"
     }
   }

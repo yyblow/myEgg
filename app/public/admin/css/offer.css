@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+.main {
+  /* background: url(../img/65bf289d736e1e62ef2fd5770642a0e5.png)no-repeat; */
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	
+}
