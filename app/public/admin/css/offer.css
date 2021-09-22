@@ -16,7 +16,7 @@ html,body {
   height: 100%;
 }
 
-@media screen and (max-width: 305px) {
+@media screen and (max-width: 650px) {
   .main img {
 	  width: 100%;
     height: 100%;
