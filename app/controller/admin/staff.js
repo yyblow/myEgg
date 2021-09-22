@@ -4,7 +4,7 @@ class StaffController extends BaseController{
   // 进入后台
   async index () {
     let { userinfo } = this.ctx.session
-    await this.ctx.render('admin/index.html', { userinfo })
+    await this.ctx.render('admin/offer.html', { userinfo })
   }
   // 进入登录界面
   async login() {
@@ -35,13 +35,13 @@ class StaffController extends BaseController{
   async register () {
     let { ctx } = this
     let body = ctx.request.body
-    let {login_name,login_pwd,staff_name,staff_phone} = body
+    let {login_name,login_pwd,staff_phone} = body
     login_pwd = ctx.service.tool.md5(login_pwd)
-    let result = await new ctx.model.Staff({login_name,login_pwd,staff_name,staff_phone,time_create:Date.now()}).save()
+    let result = await new ctx.model.Staff({login_name,login_pwd,staff_phone,time_create:Date.now()}).save()
 
     try {
       console.log(result)
-      ctx.body = '注册成功！'
+      ctx.redirect('/admin')
     } catch (error) {
       console.log(error)
     }
